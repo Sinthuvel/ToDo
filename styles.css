@@ -1,9 +1,10 @@
 html {
     height: 100vh;
     min-width: 600px;
-    background-image: linear-gradient(130deg, #FFFFFF,#1C3F80);
+    background-image: /*linear-gradient(130deg, #FFFFFF,#1C3F80);*/radial-gradient(circle, red, yellow, green);
     background-repeat: no-repeat;
     background-size: auto;
+    background-size: cover;
 }
 
 .container {
@@ -58,7 +59,7 @@ button:hover {
 }
 
 .todoList {
-    background-color: #FFFFFF;
+    background-color: lightgrey;
     border-radius: 5px;
     margin-top: 20px;
     padding: 10px 25px;
@@ -77,7 +78,7 @@ li {
     border-bottom: 1px solid lightgrey;
     padding: 15px 0;
     font-size: 1rem;
-    color: #595959;
+    color: black;
 }
 
 i {
@@ -94,6 +95,7 @@ i {
     padding: 10px 3px;
     cursor: pointer;
     font-size: 0.9rem;
+
 }
 
 .clearAll:hover {
@@ -107,4 +109,28 @@ i {
 .todo-list-item-fall {
     transform: translateY(12rem) rotateZ(10deg);
     opacity: 0;
+}
+form{
+  background-color: gray;
+}
+input{
+  background-color: lightgray;
+}
+.headline{
+  font-family: sans-serif;
+  color: darkgreen;
+  font-size: 30px;
+}
+
+.i1{
+  color:#990000;
+}
+
+h1{
+  color: #990000;
+}
+.img1{
+  width:150px;
+  height:100px;
+  background-color: green;
 }
